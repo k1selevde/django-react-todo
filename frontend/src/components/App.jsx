@@ -1,4 +1,5 @@
-import React, {Component} from 'react'
+import React from 'react'
+
 
 import DashBoard from './todo/DashBoard.jsx'
 import Header from './Header.jsx'
@@ -6,7 +7,7 @@ import Header from './Header.jsx'
 class App extends React.Component {
     render() {
         return (
-            <div>
+            <div className='container'>
                 <Header />
                 <DashBoard />
             </div>
