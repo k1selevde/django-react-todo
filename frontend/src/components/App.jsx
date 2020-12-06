@@ -1,12 +1,14 @@
 import React, {Component} from 'react'
 
+import DashBoard from './todo/DashBoard.jsx'
+import Header from './Header.jsx'
 
 class App extends React.Component {
     render() {
         return (
             <div>
-                <h1>Todo wqewqeqwe app</h1>
-                <p>What is it?? ?? ?</p>
+                <Header />
+                <DashBoard />
             </div>
         )
     }
